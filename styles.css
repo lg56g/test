@@ -1,0 +1,218 @@
+/* Общие стили */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: white; /* Белый текст для контраста с красным фоном */
+}
+
+a {
+    text-decoration: none;
+    color: white; /* Белый цвет для ссылок */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366; /* Синий цвет для кнопок */
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Убрал стили для btn-outline, так как он больше не используется */
+
+/* Hero Section */
+.hero {
+    background-color: #ff6666; /* Красный фон */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; /* Для позиционирования заголовка */
+}
+
+.hero-title {
+    font-size: 4rem; /* Большой шрифт для заголовка */
+    margin: 0; /* Убираем отступы */
+    color: white; /* Белый цвет текста */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 20px; /* Отступ сверху */
+    left: 50%; /* Центрирование по горизонтали */
+    transform: translateX(-50%); /* Точное центрирование */
+}
+
+.hero-content {
+    margin-top: 80px; /* Отступ для контента, чтобы не перекрывался заголовком */
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem; /* Увеличенный шрифт */
+    margin-bottom: 30px;
+}
+
+/* Кто мы */
+.who-we-are {
+    padding: 100px 20px; /* Увеличенные отступы */
+    text-align: center;
+    background-color: #f9f9f9; /* Светлый фон для контраста */
+}
+
+.who-we-are-content {
+    max-width: 1000px; /* Увеличенная ширина текста */
+    margin: 0 auto;
+}
+
+.who-we-are h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px; /* Увеличенный отступ */
+    color: #003366; /* Синий цвет для заголовка */
+}
+
+.who-we-are p {
+    font-size: 1.5rem; /* Увеличенный шрифт */
+    line-height: 1.8; /* Увеличенный межстрочный интервал */
+    color: #333; /* Темно-серый цвет для текста */
+}
+
+/* Что мы предлагаем */
+.what-we-offer {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff; /* Белый фон */
+}
+
+.what-we-offer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #003366; /* Синий цвет для заголовка */
+}
+
+.what-we-offer ul {
+    list-style-type: disc; /* Маркеры в виде точек */
+    padding-left: 40px; /* Отступ для маркеров */
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; /* Текст выровнен по левому краю */
+}
+
+.what-we-offer li {
+    font-size: 1.5rem; /* Увеличенный шрифт */
+    margin-bottom: 15px;
+    color: #333; /* Темно-серый цвет для текста */
+    line-height: 1.6;
+}
+
+/* Почему именно мы */
+.why-us {
+    padding: 100px 20px; /* Большие отступы для блока */
+    text-align: center;
+    background-color: #f1f1f1; /* Светлый фон для контраста */
+}
+
+.why-us-content {
+    max-width: 1000px; /* Увеличенная ширина текста */
+    margin: 0 auto;
+}
+
+.why-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; /* Отступ после заголовка */
+    color: #003366; /* Синий цвет для заголовка */
+}
+
+.why-us p {
+    font-size: 1.5rem; /* Увеличенный шрифт */
+    margin-bottom: 20px; /* Отступ перед списком */
+    color: #333; /* Темно-серый цвет для текста */
+}
+
+.why-us ul {
+    list-style-type: disc; /* Маркеры в виде точек */
+    padding-left: 40px; /* Отступ для маркеров */
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; /* Текст выровнен по левому краю */
+}
+
+.why-us li {
+    font-size: 1.5rem; /* Увеличенный шрифт */
+    margin-bottom: 15px;
+    color: #333; /* Темно-серый цвет для текста */
+    line-height: 1.6;
+}
+
+/* Наши преимущества */
+.our-advantages {
+    padding: 100px 20px; /* Большие отступы для блока */
+    text-align: center;
+    background-color: #ffffff; /* Белый фон */
+}
+
+.our-advantages-content {
+    max-width: 1000px; /* Увеличенная ширина текста */
+    margin: 0 auto;
+}
+
+.our-advantages h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px; /* Увеличенный отступ */
+    color: #003366; /* Синий цвет для заголовка */
+}
+
+.our-advantages ul {
+    list-style-type: disc; /* Маркеры в виде точек */
+    padding-left: 40px; /* Отступ для маркеров */
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; /* Текст выровнен по левому краю */
+}
+
+.our-advantages li {
+    font-size: 1.5rem; /* Увеличенный шрифт */
+    margin-bottom: 15px;
+    color: #333; /* Темно-серый цвет для текста */
+    line-height: 1.6;
+}
+
+/* Призыв к действию */
+.call-to-action {
+    padding: 100px 20px; /* Большие отступы для блока */
+    text-align: center;
+    background-color: #003366; /* Синий фон */
+    color: white; /* Белый текст */
+}
+
+.call-to-action h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    font-size: 1.5rem; /* Увеличенный шрифт */
+    margin-bottom: 20px;
+    line-height: 1.8; /* Увеличенный межстрочный интервал */
+}
+
+.call-to-action strong {
+    color: #ff6666; /* Красный цвет для выделения */
+}
+
+.call-to-action .btn {
+    background-color: #ff6666; /* Красный цвет для кнопки */
+    color: white;
+    margin-top: 20px;
+}
